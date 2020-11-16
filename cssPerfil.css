@@ -1,0 +1,222 @@
+.seccion{
+	display: flex;	
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #F9F8F8;
+}
+
+.seccion .panel-portada nav a{
+	font-size: 2rem;
+	font-style: helvética;
+	color: #F6F7F9;
+	text-decoration : none;
+	padding: 15px;
+	border-radius: 2rem;
+}
+
+
+
+.seccion .panel-portada nav ul li{
+	float: left;
+
+	list-style: none;
+	padding: 50px; 	
+}
+
+.seccion .panel-portada nav ul{
+	list-style: none;
+	padding: 5px;
+	text-align: center;
+}
+
+.seccion .panel-portada nav li a:hover{
+	background-color: #B9CAEC;
+	 
+}
+
+.seccion .panel-portada nav{
+	padding-left: 300px;
+}
+
+.seccion .panel-portada{
+	display: block;
+	width: 100%;
+	height: 250px;
+	background: linear-gradient(#7CC0FF , #DB58FE ); 
+	border-top: 4px solid #E25BFF;
+	position: relative;
+	border-radius: .5rem;
+}
+
+.seccion .panel-portada .avatar{
+	display: block;
+	z-index: 1;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 5px solid #fff;
+	box-shadow: 0 0 4px 1px rgba(0,0,0,.2);
+	position: absolute;
+	bottom: -75px;
+	left: calc(50% - 75px);
+}
+
+.seccion .contenido {
+	margin-top: 1.5rem;
+	width: 80%;
+	display: block;
+	padding-bottom: 1rem;
+	position: relative;
+}
+
+
+.seccion .contenido .tarjeta-4,
+.seccion .contenido .tarjeta-3,
+.seccion .contenido .tarjeta-2,
+.seccion .contenido .tarjeta-1{
+	padding:1.5rem;
+	border-radius: .5rem;
+	text-align: center;
+	width: 100%;
+	display: flex;
+	flex-wrap: warp;
+	box-shadow: 0 0 5px 3px rgba(0,0,0,.15);
+	margin-bottom: 1.5rem;
+}
+
+.seccion .contenido .tarjeta-1{
+	text-align: center;
+	padding-top: 4.5rem;
+}
+
+.seccion .contenido .tarjeta-2{
+	text-align: center;
+	
+}
+
+
+.seccion .contenido .tarjeta-1 .titulo{
+	font-size:1.3em;
+	margin-bottom: 1rem;
+	display: block;
+	width: 100%
+}
+
+.seccion .contenido .tarjeta-1 .texto{
+	font-size:.9em;
+	margin-bottom: 1rem;
+	display: block;
+	width: 100%
+}
+
+.seccion .contenido .tarjeta-1 .texto2{
+	font-size:1em;
+	font-style: italic;
+	display: block;
+	width: 100%
+}
+
+.seccion .contenido .tarjeta-2 .ul{
+	display: block;
+	width: 50%;
+	list-style: none;
+}
+
+.seccion .contenido .tarjeta-2 .ul li {
+	margin-bottom: .75rem;
+}
+.seccion .contenido .tarjeta-2 .ul li i:last-child{
+	margin-bottom: 0;
+}
+.seccion .contenido .tarjeta-2 .ul li i {
+	margin-right: 1rem;
+}
+
+.redes{
+	list-style: none;
+	position: absolute;
+	top: 0;
+	right: -120px;
+}
+
+.redes a{
+	text-decoration: none;
+	color: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	width: 60px;
+	height: 60px;
+	color: #fff;
+	border-radius: 50%;
+	margin-bottom: 1rem;
+}
+
+
+.seccion .contenido .tarjeta-3{
+	text-align: center;
+
+}
+
+.seccion .contenido .tarjeta-4{
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	
+}
+
+.seccion .contenido .tarjeta-4 table{
+	 margin: 0 auto;
+    text-align: left;
+    font-style: italic;
+    font-size: 12px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+.seccion .contenido .tarjeta-4 table tr{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff; color: #039; 
+}
+
+.seccion .contenido .tarjeta-4 table tr td{
+	padding: 8px;
+	background: #e8edff;
+	border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+}
+
+.seccion .contenido .tarjeta-4 table tr td a{
+	text-decoration: none;
+	color: #669;
+}
+.seccion .contenido .tarjeta-4 table tr:hover td{
+	background: #d0dafd; 
+	color: #339;
+}
+
+.seccion .contenido .tarjeta-3 .titulo-2{
+	font-size:3em;
+	margin-bottom: 0.75rem;
+	padding-top:8rem ;
+	display: block;
+	width: 50%
+}
+
+.clearfix{
+	clear: both;
+}
+
+.seccion .contenido .tarjeta-4 table{
+
+}
+
+
+
